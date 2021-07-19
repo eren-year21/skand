@@ -1,0 +1,9 @@
+node_modules
+.vscode
+.idea
+ci
+trash
+src/assets
+src/@types
+storybook-static
+src/stories

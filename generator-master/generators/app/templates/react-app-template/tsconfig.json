@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "tsBuildInfoFile": "./.buildcache",
+    "target": "es5",
+    "jsx": "react",
+    "module": "commonjs",
+    "lib": [
+      "dom",
+      "esnext",
+      "esnext.asynciterable"
+    ],
+    "strict": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": false,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"
+    ],
+    "types": [
+      "react",
+      "jest"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/@types/**/*.d.ts",
+    "webpack.config.js",
+    "jest.config.ci.js",
+    "jest.config.js",
+    "setup/enzyme.js"
+
+  ],
+  "exclude": [
+    "node_modules",
+    "src/**/*.test-data.ts",
+    "scripts/**/*.js",
+    "storybook-static",
+    "src/stories"
+  ],
+  "baseUrl": "./src",
+  "paths": {
+    "@types": ["@types/*"]
+  }
+}

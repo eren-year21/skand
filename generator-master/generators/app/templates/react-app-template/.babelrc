@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "env"
+  ],
+  "plugins": [
+    [
+      "transform-rename-import",
+      {
+        "original": "^(.+?)\\.scss",
+        "replacement": "$1.css"
+      }
+    ],
+    "transform-object-rest-spread"
+  ]
+}

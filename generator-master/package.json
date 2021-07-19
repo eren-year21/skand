@@ -1,0 +1,20 @@
+{
+  "name": "generator-react",
+  "version": "1.0.0",
+  "description": "Yeoman generator REACT",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "inquirer-npm-name": "^4.0.0",
+    "lodash.merge": "^4.6.2",
+    "parse-author": "^2.0.0",
+    "validate-npm-package-name": "^3.0.0",
+    "yeoman-generator": "^3.2.0"
+  }
+}
